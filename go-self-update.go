@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-const version = "1.0.0"
+const version = "2.0.0"
 const update_url = "Erachter/go-self-update"
 
 func self_update() error {
@@ -38,6 +38,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Println("Hello World")
+	fmt.Println("Hello World!")
 	os.Exit(0)
 }
